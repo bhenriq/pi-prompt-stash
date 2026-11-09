@@ -1,4 +1,4 @@
-# pi-prompt-stash-ext
+# pi-prompt-stash
 
 Press **F2** to move the prompt you are composing out of the editor so you can
 run a slash command. Press **F2** again afterwards to put the draft back and
@@ -20,7 +20,7 @@ also avoids modifier-encoding differences between terminals.
 Install the package from GitHub:
 
 ```sh
-pi install git:github.com/bhenriq/pi-prompt-stash-ext
+pi install git:github.com/bhenriq/pi-prompt-stash
 ```
 
 Then run `/reload` in Pi (or restart it).
@@ -28,7 +28,7 @@ Then run `/reload` in Pi (or restart it).
 Keep it up to date with:
 
 ```sh
-pi update git:github.com/bhenriq/pi-prompt-stash-ext
+pi update git:github.com/bhenriq/pi-prompt-stash
 # or update every installed package
 pi update --extensions
 ```
@@ -36,7 +36,7 @@ pi update --extensions
 Remove it with:
 
 ```sh
-pi remove git:github.com/bhenriq/pi-prompt-stash-ext
+pi remove git:github.com/bhenriq/pi-prompt-stash
 ```
 
 ### Local development
@@ -44,14 +44,14 @@ pi remove git:github.com/bhenriq/pi-prompt-stash-ext
 Run Pi against this checkout for one session:
 
 ```sh
-pi -e /path/to/pi-prompt-stash-ext
+pi -e /path/to/pi-prompt-stash
 ```
 
 Or symlink the checkout into Pi's extension directory, naming the symlink as
 you want the extension to appear in Pi:
 
 ```sh
-ln -s /path/to/pi-prompt-stash-ext ~/.pi/agent/extensions/prompt-stash
+ln -s /path/to/pi-prompt-stash ~/.pi/agent/extensions/prompt-stash
 ```
 
 Then run `/reload` in Pi (or restart it). Do not keep the symlink and the
